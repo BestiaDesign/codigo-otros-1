@@ -31,7 +31,7 @@ displayUser('stolinski').catch(handleError);
 const baseEndpoint = "https://api.github.com"; // Se cambio a comillas dobles
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.querySelector('.name'); // Se agrego el . para llamar a la clase
-const $b = document.querySelector('.#blog'); // Se agrego el . para llamar a la clase
+const $b = document.querySelector('.blog'); // Se agrego el . y quito # para llamar a la clase
 const $l = document.querySelector('.location'); // Se agrego el . para llamar a la clase y se llamó la clase location
 
 async function displayUser(username) { // Se agregó el async
